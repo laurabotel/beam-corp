@@ -10,7 +10,7 @@
     "start": "NODE_ENV=production nodemon ./server/server.js",
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development node ./server/server.js & NODE_ENV=development webpack serve",
-    "test": "jest --verbose ./__tests__/route.test.js "
+    "test": "jest --forceExit ./__tests__/route.test.js "
   },
   "nodemonConfig": {
     "ignore": [
